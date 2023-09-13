@@ -56,21 +56,23 @@ https://patisserienewyork.com.au/
 ## FEATURES
 Learnuelcake have the following pages
 
-- Home
- This is the landing page and should be catchy for user having a slider section followed by cake gallery of at lest 6 t0 8 cake pictures.
+#### Home
+ - This is the landing page and should be catchy for user having a slider section followed by cake gallery of at lest 6 t0 8 cake pictures.
 
- - About
- This section should display handful information about the business along with brief history of the organization and one or two images.
+ #### About
+ - This section should display handful information about the business along with brief history of the organization and one or two images.
 
-- FAG
-This section provide answers to frequently asked questions (FAG), not less than 10 question regarding buying cake from Learnuelcake.
+#### FAG
+- This section provide answers to frequently asked questions (FAG), not less than 10 question regarding buying cake from Learnuelcake.
 
-- Contact
-This page shows a means for contacting the enterprise, it should be catchy as well.
+#### Contact
+- This page shows a means for contacting the enterprise, it should be catchy as well.
 
-- Shop
-This page use display main pictures of cake in different patten and combinations.
+#### Shop
+- This page use display main pictures of cake in different patten and combinations.
 
+#### Services
+- This section have a list of the various service rendered by Learnuelcake with some accompanying pictures.
 ### SITE CONTENT
 visit the document through the link before writeup/content for the various pages.
 https://docs.google.com/document/d/1uPv70xpD21QltyZk6ziUHoFeq1cOAD3A-XE82bqJTcM/edit?usp=sharing
