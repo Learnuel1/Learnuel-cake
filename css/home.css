@@ -17,10 +17,12 @@ body{
     height: auto;
     display: flex;
     flex-direction: column;
+    position: absolute;
 }
 .head{
     width: 100%;
     height: 20ch;
+    z-index: 2;
 }
 .order{
     width: 100%;
@@ -80,4 +82,37 @@ body{
     color: rgb(4, 178, 247);
     transition: transform 0.5s ease;
     transform: translateY(-5px);
+}
+.hero{
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+.hero-background{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cake-1{
+    width: 100%;
+    height: 100vh;
+}
+.hero-opacity{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: -100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-head{
+    text-transform: capitalize;
+    width: 38%;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
 }
