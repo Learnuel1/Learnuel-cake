@@ -46,6 +46,9 @@ Example
 - style
 - test
 
+### SITE
+https://learnuelcake.vercel.app/
+
 ### SAMPLE SITE
 Visit the sitelink below and use as a guide for UI design.
 https://patisserienewyork.com.au/
