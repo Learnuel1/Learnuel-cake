@@ -34,17 +34,36 @@
 }
 .parent-b{
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    
 }
 .intro{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 80px;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(229, 231, 236);
+}
+.intro h4{
+    font-size: 40px;
+    font-family: monospace;
+}
+.prof{
+    display: flex;
+    flex-direction: column;
+}
+.prof h4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(219, 22, 22);
+    text-align: right;
 }
 .parent-c{
     width: 100%;
@@ -54,9 +73,4 @@
     word-spacing: 3px;
     margin-left: 10px;
     font-weight: 100;
-}
-.parent-d{
-    align-items: center;
-    justify-content: center;
-    height: 50px;
 }
