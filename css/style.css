@@ -25,12 +25,26 @@
     align-items: center;
     margin-bottom: 5px;
 }
+.party{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .parent{
+    font-size: 30px;
+    word-spacing: 15px;
+    color: white;
+}
+.path{
+    display: flex;
+    flex-direction: row;
     color: white;
 }
 .parent-a{
     color: white;
-    font-size: 80px; 
+    font-size: 80px;
+    justify-content: space-around;
 }
 .parent-b{
     width: 100%;
@@ -56,21 +70,30 @@
 .prof{
     display: flex;
     flex-direction: column;
+
 }
 .prof h4{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: rgb(219, 22, 22);
-    text-align: right;
+    color: red;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 50px;
 }
 .parent-c{
     width: 100%;
     height: 100px;
-    color: rgb(22, 17, 17);
+    color: rgb(83, 74, 74);
     letter-spacing: 1px;
     word-spacing: 3px;
     margin-left: 10px;
-    font-weight: 100;
+    font-weight: bolder;
+}
+.bold{
+    color: red;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 50px;
 }
