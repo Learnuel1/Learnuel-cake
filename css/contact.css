@@ -164,7 +164,7 @@ footer{
   width: 100%;
   background-color: black;
 }
-.footer-navber{
+.footer-navbar{
   display: flex;
   flex-direction: row;
   height: 50vh;
