@@ -311,3 +311,62 @@ body{
 .connect-btn{
     padding: 15px;
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+  }
+  .footer-navbar{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 100%;
+    
+    
+  }
+  .footer-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+  }
+  .footer-list li{
+    line-height: 40px;
+    font-size: 20px;
+  }
+  .footer-list a{
+    color: white;
+  }
+  .foot-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .foot-lg{
+    width: 10%;
+  }
+  .footer-1{
+    border-top: 1px solid rgb(12, 12, 12);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+  }
+  .foot-navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .foot-navbar h2{
+    color: white;
+  }
+  .foot-navbar p{
+    color: white;
+    font-size: 22px;
+  }
