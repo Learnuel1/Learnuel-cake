@@ -200,10 +200,11 @@ body{
     color: white;
 }
 .product{
-    font-size: 20px;
+    font-size: 27px;
+    font-weight: 600;
 }
 .cake-name{
-    font-size: 30px;
+    font-size: 50px;
 }
 .l{
     color: black;
@@ -218,6 +219,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10ch;
+    padding: 0px 15ch;
 }
 .recent-txt{
     width: 100%;
@@ -301,6 +303,10 @@ body{
     padding-bottom: 100px;
     padding-left: 10px;
     margin-bottom: 3ch;
+    max-width: 98ch;
+    min-width: 98ch;
+    max-height: 20ch;
+    min-height: 20ch;
 }
 .connect-btn{
     padding: 15px;
