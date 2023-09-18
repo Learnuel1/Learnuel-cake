@@ -1,0 +1,50 @@
+.body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.Faq-border {
+    position: absolute;
+    background-color: grey;
+    width: 55ch;
+    height: 130ch;
+
+}
+.h1_ {
+    position: relative;
+    color: black;
+    padding-top: 9ch;
+    padding-left: 5ch;
+}
+.p {
+    position: relative;
+    font-size: 4ch;
+    top: 1ch;
+    padding-left: 5ch;
+}
+.h2 {
+    position: relative;
+    top:20ch;
+    left: 40ch;
+}
+.p1 {
+    position: relative;
+    top: 15ch;
+    left: 75ch;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+.h2_ {
+    position: relative;
+    top:20ch;
+    left: 40ch;
+}
+.p2_ {
+    position: relative;
+    top: 17ch;
+    left: 75ch;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+
+
