@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* ID SELECTOR */
+#login{
+    /* background-color: rgb(255, 43, 255); */
+    /* background-color: #ffbb10; */
+    background-color: rgba(255, 43, 255, 9);
+}
+#login{
+    color: red;
+}
+.btn button{
+    font-size: 25px;
+}
+.service p a{
+    border: 2px solid rgb(203, 53, 225);
+    padding: 10px;
+    border-radius: 10px;
+}
+.service p a:hover{
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    cursor: wait;
+}
+/* .service p a::after{
+    font-size: 30px;
+    background-color: red;
+    color: white;
+} */
