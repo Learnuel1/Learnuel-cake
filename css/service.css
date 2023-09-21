@@ -1,0 +1,30 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type:none; 
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* ID SELECTOR */
+#service {
+    background-color: rgb(205,255,295);
+}
+#service button {
+    font-size: 25px;
+}
+.service p a {
+    font-size: 30px;
+    background-color: aquamarine;
+    color: brown;
+    border-radius: 10px;
+}
+.service p a:hover {
+    font-size: 30px;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+
+
+}
