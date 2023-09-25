@@ -62,7 +62,7 @@ Learnuelcake have the following pages
  #### About
  - This section should display handful information about the business along with brief history of the organization and one or two images.
 
-#### FAG
+#### FAQS
 - This section provide answers to frequently asked questions (FAG), not less than 10 question regarding buying cake from Learnuelcake.
 
 #### Contact

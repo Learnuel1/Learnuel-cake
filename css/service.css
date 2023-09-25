@@ -1,11 +1,17 @@
 *{
+<<<<<<< HEAD
     margin: 0px;
     padding: 0px;
+=======
+    padding: 0px;
+    margin: 0px;
+>>>>>>> 55268e94f0886e2a01a0ec2c6add171c25001c06
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
 html{
+<<<<<<< HEAD
     text-decoration: none;
     list-style: none;
 }
@@ -39,3 +45,37 @@ background-color: rgba(255, 42, 255, 0.3);
     cursor: pointer;
     color: rgba(159, 89, 224, 0.733);
 }
+=======
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* ID SELECTOR */
+#login{
+    /* background-color: rgb(255, 43, 255); */
+    /* background-color: #ffbb10; */
+    background-color: rgba(255, 43, 255, 9);
+}
+#login{
+    color: red;
+}
+.btn button{
+    font-size: 25px;
+}
+.service p a{
+    border: 2px solid rgb(203, 53, 225);
+    padding: 10px;
+    border-radius: 10px;
+}
+.service p a:hover{
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    cursor: wait;
+}
+/* .service p a::after{
+    font-size: 30px;
+    background-color: red;
+    color: white;
+} */
+>>>>>>> 55268e94f0886e2a01a0ec2c6add171c25001c06

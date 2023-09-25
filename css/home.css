@@ -102,7 +102,7 @@ body{
 .hero-opacity{
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.457);
     margin-top: -100vh;
     display: flex;
     flex-direction: column;
@@ -111,8 +111,262 @@ body{
 }
 .hero-head{
     text-transform: capitalize;
-    width: 38%;
+    width: 48%;
     text-align: center;
-    font-size: 40px;
-    color: rgb(0, 0, 0);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
 }
+.cake-ads{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20ch;
+}
+.cake-txt{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5ch;
+}
+.cake-head{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.read{
+    margin-top: 10px;
+    margin-left: 15ch;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.cake-para{
+    width: 100%;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+.read-btn{
+    background-color: black;
+    color: white;
+    padding: 12px 37px;
+    margin-top: 2ch;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 20px;
+    transition: transform 1s ease-in-out, color 0.5s ease, background-color 1s;
+    
+}
+.read-btn:hover{
+    transform: translateY(-7px);
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+.cake-list{
+    width: 100%;
+    height: auto;
+    margin-top: 10ch;
+}
+.cake{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.cake-row{
+    display: flex;
+    flex-direction: row;
+    gap: 10ch;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.a-cake{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-image: url(../img/cake_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50ch;
+    height: 40ch;
+    justify-content: center;
+}
+
+.cakee-txt{
+    margin-top: 20ch;
+    margin-left: -20px;
+    color: white;
+}
+.product{
+    font-size: 27px;
+    font-weight: 600;
+}
+.cake-name{
+    font-size: 50px;
+}
+.l{
+    color: black;
+}
+.top{
+    color: black;
+}
+.recent{
+    width: 100%;
+    height: auto;
+    margin-top: 20ch;
+    display: flex;
+    flex-direction: column;
+    gap: 10ch;
+    padding: 0px 15ch;
+}
+.recent-txt{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recent-head{
+    font-size: 50px;
+}
+.recent-row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 9ch;
+    justify-content: center;
+}
+.ano{
+    background-image: url(../img/cake_2.jpg);
+    width: 40ch;
+    height: 30ch;
+}
+.anot{
+    background-image: url(../img/cake_3.jpg);
+}
+.anoth{
+    background-image: url(../img/cakw.jpg);
+}
+.anothe{
+    background-image: url(../img/cake_4.jpg);
+}
+.connect{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10ch;
+    padding: 10ch;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.connect-txt{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.connect-head{
+    font-size: 40px;
+}
+.connect-para{
+    margin-top: 2ch;
+    font-size: 20px;
+    line-height: 35px;
+}
+.connect-fm{
+    display: flex;
+    flex-direction: column;
+    width: 90ch;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5ch;
+    margin-bottom: 3ch;
+}
+.fm-input{
+    width: 100%;
+    padding: 15px;
+}
+.sel{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 3ch;
+}
+.area{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    margin-bottom: 3ch;
+    max-width: 98ch;
+    min-width: 98ch;
+    max-height: 20ch;
+    min-height: 20ch;
+}
+.connect-btn{
+    padding: 15px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+  }
+  .footer-navbar{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 100%;
+    
+    
+  }
+  .footer-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+  }
+  .footer-list li{
+    line-height: 40px;
+    font-size: 20px;
+  }
+  .footer-list a{
+    color: white;
+  }
+  .foot-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .foot-lg{
+    width: 10%;
+  }
+  .footer-1{
+    border-top: 1px solid rgb(12, 12, 12);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+  }
+  .foot-navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .foot-navbar h2{
+    color: white;
+  }
+  .foot-navbar p{
+    color: white;
+    font-size: 22px;
+  }
