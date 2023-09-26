@@ -2,13 +2,19 @@
     background-color: white;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box
 }
 .Faq-border {
     position: absolute;
     background-color: grey;
     width: 55ch;
     height: 130ch;
+    top: 8ch;
 
+}
+.navi {
+    position: relative;
+    width: 169ch;
 }
 .h1_ {
     position: relative;
@@ -25,24 +31,24 @@
 .h2 {
     position: relative;
     top:20ch;
-    left: 40ch;
+    left: 1ch;
 }
 .p1 {
     position: relative;
     top: 15ch;
-    left: 75ch;
+    left: 5ch;
     font-size: 20px;
     word-spacing: 2px;
 }
 .h2_ {
     position: relative;
     top:20ch;
-    left: 40ch;
+    left: 5ch;
 }
 .p2_ {
     position: relative;
     top: 17ch;
-    left: 75ch;
+    left: 5ch;
     font-size: 20px;
     word-spacing: 2px;
 }
