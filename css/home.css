@@ -116,3 +116,51 @@ body{
     font-size: 40px;
     color: rgb(0, 0, 0);
 }
+
+@media screen and (min-width:375px){
+    .order{
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .order-lab{
+        font-size: 12px;
+    }
+    .nav-item{
+        display: none;
+    }
+    .favicon{
+        display: none;
+    }
+}
+
+@media screen and (min-width:375px){
+    .order{
+        background-color: blue;
+    }
+    .navi{
+        height: 20px;
+    }
+    .hero{
+    width: 100%;
+    }
+    .hero-background{
+        width: inherit;
+    }
+    .hero-opacity{
+        width: inherit;
+    }
+    .cake-1{
+        height: 40ch;
+    }
+    .hero-head{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40ch;
+        font-size: 20px;
+        width: inherit;
+    }
+}

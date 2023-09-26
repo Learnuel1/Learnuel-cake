@@ -24,6 +24,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 5px;
+    font-size: 10px;
 }
 .party{
     display: flex;
@@ -95,4 +96,29 @@
     font-size: 20px;
     font-family: monospace;
     font-weight: 50px;
+}
+@media screen and (min-width:375px){
+    .enter{
+        font-size: 10px;
+        background-color: blue;
+    }
+    .intro h4{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:370px){
+    .intro h4{
+        font-size: 30px;
+        width: 100%;
+    }
+    .parent-c{
+        width: auto;
+        font-size: 30px;
+    }
+    .bold{
+        font-size: 30px;
+    }
+    .prof{
+        margin-top: 10px;
+    }
 }
